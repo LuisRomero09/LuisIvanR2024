@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title Mi Aplicación
+    body
+        h1 Bienvenido a Mi Aplicación
+        form(action='/add', method='POST')
+            label(for='nombre') Nombre:
+            input(type='text', name='nombre', required)
+            label(for='edad') Edad:
+            input(type='number', name='edad', required)
+            button(type='submit') Enviar
