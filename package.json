@@ -1,0 +1,23 @@
+{
+  "name": "mi-proyecto-jsdoc",
+  "version": "1.0.0",
+  "description": "Un proyecto de ejemplo para documentar con JsDoc",
+  "main": "mimodulo.js",
+  "scripts": {
+    "install-jsdoc": "npm install -g jsdoc",
+    "doc": "jsdoc -c jsdoc.json --readme ./README.md"
+  },
+  "dependencies": {
+    "clean-jsdoc-theme": "^1.0.0"  
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.7"  
+  },
+  "keywords": [
+    "jsdoc",
+    "documentación",
+    "javascript"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
